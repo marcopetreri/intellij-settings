@@ -1,4 +1,7 @@
 <keymap version="1" name="Custom" parent="Sublime Text (Mac OS X)">
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="CollapseRegionRecursively">
     <keyboard-shortcut first-keystroke="meta alt subtract" />
   </action>
@@ -7,6 +10,7 @@
     <keyboard-shortcut first-keystroke="meta divide" />
     <keyboard-shortcut first-keystroke="meta u_with_grave" />
   </action>
+  <action id="DecrementWindowHeight" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
@@ -16,10 +20,10 @@
     <keyboard-shortcut first-keystroke="shift meta j" />
     <keyboard-shortcut first-keystroke="shift meta space" />
     <keyboard-shortcut first-keystroke="shift ctrl m" />
-    <keyboard-shortcut first-keystroke="alt up" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorUnSelectWord">
-    <keyboard-shortcut first-keystroke="alt down" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
   <action id="ExpandLiveTemplateCustom">
     <keyboard-shortcut first-keystroke="shift space" />
@@ -27,6 +31,19 @@
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="meta alt equals" />
   </action>
+  <action id="IncrementWindowHeight" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift meta alt u_with_grave" />
   </action>
@@ -42,8 +59,28 @@
     <keyboard-shortcut first-keystroke="ctrl page_up" />
     <keyboard-shortcut first-keystroke="meta alt minus" />
   </action>
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
+  <action id="ShowSearchHistory" />
+  <action id="SmartSelect">
+    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="shift meta j" />
+    <keyboard-shortcut first-keystroke="shift meta space" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta alt u_with_grave" />
+  </action>
+  <action id="TableResult.GrowSelection">
+    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="shift meta j" />
+    <keyboard-shortcut first-keystroke="shift meta space" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="Vcs.Push" />
 </keymap>
