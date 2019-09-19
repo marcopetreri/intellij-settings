@@ -11,6 +11,9 @@
     <keyboard-shortcut first-keystroke="meta u_with_grave" />
   </action>
   <action id="DecrementWindowHeight" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
@@ -34,6 +37,14 @@
   </action>
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="meta alt equals" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+    <keyboard-shortcut first-keystroke="meta alt down" />
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="shift meta button1" />
+    <keyboard-shortcut first-keystroke="meta less" />
+    <mouse-shortcut keystroke="meta button1" />
   </action>
   <action id="IncrementWindowHeight" />
   <action id="MethodOverloadSwitchDown" />
@@ -66,6 +77,9 @@
     <keyboard-shortcut first-keystroke="meta alt minus" />
   </action>
   <action id="PreviousTemplateVariable" />
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="meta alt f8" />
+  </action>
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
