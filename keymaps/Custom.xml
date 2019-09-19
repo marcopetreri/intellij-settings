@@ -25,6 +25,10 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <keyboard-shortcut first-keystroke="shift tab" />
+  </action>
   <action id="ExpandLiveTemplateCustom">
     <keyboard-shortcut first-keystroke="shift space" />
   </action>
@@ -53,15 +57,19 @@
     <keyboard-shortcut first-keystroke="ctrl page_down" />
     <keyboard-shortcut first-keystroke="meta alt add" />
   </action>
+  <action id="PrevParameter" />
+  <action id="PrevTemplateParameter" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="meta alt left" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
     <keyboard-shortcut first-keystroke="meta alt minus" />
   </action>
+  <action id="PreviousTemplateVariable" />
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="SearchEverywhere.PrevTab" />
   <action id="ShowSearchHistory" />
   <action id="SmartSelect">
     <keyboard-shortcut first-keystroke="meta l" />
