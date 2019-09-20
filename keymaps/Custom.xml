@@ -2,6 +2,12 @@
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
   <action id="CollapseRegionRecursively">
     <keyboard-shortcut first-keystroke="meta alt subtract" />
   </action>
@@ -79,6 +85,12 @@
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="meta alt equals" />
   </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
     <keyboard-shortcut first-keystroke="meta alt down" />
@@ -87,6 +99,7 @@
     <keyboard-shortcut first-keystroke="meta less" />
     <mouse-shortcut keystroke="meta button1" />
   </action>
+  <action id="GotoSuperMethod" />
   <action id="IncrementWindowHeight" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
@@ -127,6 +140,7 @@
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
   <action id="SearchEverywhere.PrevTab" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowSearchHistory" />
   <action id="SmartSelect">
     <keyboard-shortcut first-keystroke="shift meta a" />
