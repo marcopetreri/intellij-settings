@@ -1,5 +1,8 @@
 <code_scheme name="Default" version="173">
   <option name="RIGHT_MARGIN" value="180" />
+  <Properties>
+    <option name="KEEP_BLANK_LINES" value="true" />
+  </Properties>
   <codeStyleSettings language="HTML">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
