@@ -139,6 +139,9 @@
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
   <action id="SearchEverywhere.PrevTab" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowSearchHistory" />
@@ -151,10 +154,6 @@
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta alt u_with_grave" />
-  </action>
-  <action id="StepOver">
-    <keyboard-shortcut first-keystroke="f8" />
-    <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
   <action id="TableResult.GrowSelection">
     <keyboard-shortcut first-keystroke="shift meta a" />
