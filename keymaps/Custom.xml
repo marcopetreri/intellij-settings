@@ -113,9 +113,6 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
-  <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="shift meta alt u_with_grave" />
-  </action>
   <action id="NextEditorTab" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
@@ -152,8 +149,21 @@
     <keyboard-shortcut first-keystroke="shift ctrl m" />
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
-  <action id="SplitVertically">
+  <action id="TabShiftActions.MoveFocusLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl alt open_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt a_with_grave" />
+  </action>
+  <action id="TabShiftActions.MoveFocusRight">
+    <keyboard-shortcut first-keystroke="shift ctrl alt close_bracket" />
     <keyboard-shortcut first-keystroke="meta alt u_with_grave" />
+  </action>
+  <action id="TabShiftActions.ShiftLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
+    <keyboard-shortcut first-keystroke="shift meta alt a_with_grave" />
+  </action>
+  <action id="TabShiftActions.ShiftRight">
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+    <keyboard-shortcut first-keystroke="shift meta alt u_with_grave" />
   </action>
   <action id="TableResult.GrowSelection">
     <keyboard-shortcut first-keystroke="shift meta a" />
