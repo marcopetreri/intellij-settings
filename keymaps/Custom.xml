@@ -26,9 +26,6 @@
   <action id="Diff.PrevChange">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
   </action>
-  <action id="EditorAddOrRemoveCaret">
-    <mouse-shortcut keystroke="alt button1" />
-  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift ctrl up" />
     <keyboard-shortcut first-keystroke="meta alt up" />
@@ -36,6 +33,9 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
     <keyboard-shortcut first-keystroke="meta alt down" />
+  </action>
+  <action id="EditorCreateRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="button2" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
@@ -97,7 +97,7 @@
     <mouse-shortcut keystroke="button2" />
     <mouse-shortcut keystroke="shift meta button1" />
     <keyboard-shortcut first-keystroke="meta less" />
-    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="alt button1" />
   </action>
   <action id="GotoSuperMethod" />
   <action id="IncrementWindowHeight" />
