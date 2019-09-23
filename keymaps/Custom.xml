@@ -152,6 +152,10 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta alt u_with_grave" />
   </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
   <action id="TableResult.GrowSelection">
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="shift meta j" />
